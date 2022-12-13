@@ -6,7 +6,7 @@ Esse código serve para criar uma bibliotaca em C criando um vetor ordenado, adi
 ## Pré-requisito
 Para compilar e executar o codigo é necessario que tenha instalado o GCC ou G++. Com algum deles instalados, resta a você baixar o código, para fazer isso:
 
-download [here](https://github.com/Gabriel-Sao-Pedro/TR11_537643/archive/refs/heads/main.zip)
+download [here](https://github.com/devtarcisio/TR11_538534/archive/refs/heads/main.zip)
 
 ## Instalação
 É necessario que os arquivos estejam na mesma pasta para que a compilação ocorra.
