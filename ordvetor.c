@@ -37,16 +37,16 @@ void VETORD_add(VETORORD *vetor, void *newelem)
                     break; // se não for menor então interrompe
             }
         }
-        vetor->P++; // valor p do vetorord adiciona mais um
+        vetor->P++; // nesse caso valor p do vetorord acrescenta mais um
     }
 }
 
 void *VETORD_remove(VETORORD *vetor)
-{                                // remove ao vetorord
+{                                //  a partir disso remove ao vetorord
     void *aux = vetor->elems[0]; // um ponteiro auxiliar pra encontrar o endereço referente
     for (int i = 0; i < vetor->P; i++)
         vetor->elems[i] = vetor->elems[i + 1]; // Remove o menor elemento do vetor
-    vetor->P--;                                // valor p do vetorord remove um
+    vetor->P--;                                // a partir daqui o valor p do vetorord remove um
 
     return aux; // retorna um ponteiro para o elemento que foi removido do vetor em questão
 }
