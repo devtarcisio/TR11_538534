@@ -1,7 +1,7 @@
 # TR11_538534
 
 
-Esse código serve para criar uma bibliotaca em C criando um vetor ordenado, adicionar no vetor e remover no vetor. O usuário específica como quer ordenar com a função de comparação(COMP)
+Esse código serve para criar uma biblioteca em C criando um vetor ordenado, adicionar no vetor e remover no vetor. O usuário específica como quer ordenar com a função de comparação(COMP)
 
 ## Pré-requisito
 Para compilar e executar o codigo é necessario que tenha instalado o GCC ou G++. Com algum deles instalados, resta a você baixar o código, para fazer isso:
