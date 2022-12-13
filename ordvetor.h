@@ -4,7 +4,7 @@
 #ifndef ORDVETOR_H
 #define ORDVETOR_H
 
-/*Definicao do tipo de funcao a ser utilizada para comparacao
+/*A Definicao do tipo de funcao a ser utilizada para comparacao
 Esta function recebe dois valores x e y e retorna
 1 : se x Ã© menor que y.
 0 : se x Ã© equivalente a y.
@@ -19,7 +19,7 @@ typedef struct vet
     int N;            // tamanho do vetor
     int P;            // numero de elementos no vetor
     void **elems;     // o vetor de elementos
-    COMP *comparador; // a funcao de comparacao
+    COMP *comparador; // a funcao de comparacao em questao
 } VETORORD;
 
 /**
@@ -42,7 +42,7 @@ void VETORD_add(VETORORD *vetor, void *newelem);
 
 /**
 Remove o menor elemento do vetor, de acordo com a funcao compara.
-@param vetor: o vetor a ter seu elemento removido
+@param vetor: o vetor que tera seu elemento removido
 @return um ponteiro para o elemento que foi removido do vetor.
 */
 void *VETORD_remove(VETORORD *vetor);
